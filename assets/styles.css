@@ -274,13 +274,16 @@ table.compare tr:last-child td{border-bottom:none}
 
 /* Footer */
 footer.site{background:var(--ink);color:rgba(255,255,255,.6);padding:64px 0 32px;margin-top:40px}
-.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px}
+.footer-grid{display:grid;grid-template-columns:1.2fr repeat(4,1fr);gap:32px;margin-bottom:48px}
 footer.site h4{color:#fff;font-size:14px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.03em}
 footer.site ul{display:flex;flex-direction:column;gap:10px;font-size:14px}
 footer.site a:hover{color:#fff}
 footer.site .foot-logo{display:flex;align-items:center;gap:10px;color:#fff;font-family:'Fraunces',serif;font-weight:700;font-size:18px;margin-bottom:14px}
 footer.site .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 
+@media(max-width:1100px){
+  .footer-grid{grid-template-columns:1fr 1fr 1fr}
+}
 @media(max-width:900px){
   .hero-grid{grid-template-columns:1fr}
   .hero-visual{order:-1}
