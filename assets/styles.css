@@ -88,6 +88,15 @@ header.site{
 .hero-trust{display:flex;gap:24px;flex-wrap:wrap;color:var(--slate);font-size:14px}
 .hero-trust span{display:flex;align-items:center;gap:8px}
 .hero-trust svg{color:var(--success);flex:none}
+.payment-row{display:flex;align-items:center;gap:16px;margin-top:24px;flex-wrap:wrap}
+.payment-label{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--slate-light)}
+.payment-icons{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.payment-icon{
+  display:flex;align-items:center;justify-content:center;
+  background:#fff;border:1px solid var(--border);border-radius:8px;
+  width:56px;height:38px;box-shadow:var(--shadow-sm);
+}
+.payment-icon img{max-width:44px;max-height:22px;width:auto;height:auto}
 .hero-visual{
   background:var(--ink);border-radius:var(--radius-lg);aspect-ratio:4/3;
   position:relative;overflow:hidden;box-shadow:var(--shadow-lg);
@@ -152,7 +161,7 @@ table.compare tr:last-child td{border-bottom:none}
 .price-card .per{color:var(--slate);font-size:13px;margin-bottom:24px}
 .price-card ul{text-align:left;margin-bottom:26px;display:flex;flex-direction:column;gap:10px}
 .price-card ul li{display:flex;gap:10px;font-size:14px;color:var(--slate)}
-.price-card ul li svg{flex:none;color:var(--success);margin-top:2px}
+.price-card ul li svg{flex:none;color:var(--red);margin-top:2px}
 .price-card .btn{width:100%}
 
 /* FAQ */
