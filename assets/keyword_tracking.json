@@ -1,0 +1,32 @@
+{
+  "note": "Starter list, manually seeded (no Ahrefs/DataForSEO export available for the CH-FR market yet). Volume/KD are unknown until a real keyword export is provided — expand before this list runs dry at daily cadence.",
+  "focus_keyword": "iptv suisse",
+  "secondary_keywords": ["abonnement iptv suisse", "meilleur iptv suisse", "iptv romandie"],
+  "keywords": [
+    { "keyword": "guide iptv suisse", "status": "published", "slug": "guide-iptv-suisse", "published_date": "2026-09-01" },
+    { "keyword": "abonnement iptv suisse", "status": "pending" },
+    { "keyword": "meilleur iptv suisse", "status": "pending" },
+    { "keyword": "iptv suisse romande", "status": "pending" },
+    { "keyword": "iptv suisse pas cher", "status": "pending" },
+    { "keyword": "iptv suisse avis", "status": "pending" },
+    { "keyword": "iptv suisse légal", "status": "pending" },
+    { "keyword": "comment installer iptv suisse", "status": "pending" },
+    { "keyword": "iptv smart tv suisse", "status": "pending" },
+    { "keyword": "iptv android box suisse", "status": "pending" },
+    { "keyword": "iptv suisse 4k", "status": "pending" },
+    { "keyword": "iptv sport suisse", "status": "pending" },
+    { "keyword": "iptv genève", "status": "pending" },
+    { "keyword": "iptv lausanne", "status": "pending" },
+    { "keyword": "iptv fribourg", "status": "pending" },
+    { "keyword": "iptv valais", "status": "pending" },
+    { "keyword": "meilleure application iptv 2026", "status": "pending" },
+    { "keyword": "iptv smarters pro configuration", "status": "pending" },
+    { "keyword": "iptv sans coupure", "status": "pending" },
+    { "keyword": "iptv chaînes suisses romandes", "status": "pending" },
+    { "keyword": "iptv vs swisscom tv", "status": "pending" },
+    { "keyword": "iptv essai gratuit suisse", "status": "pending" },
+    { "keyword": "iptv abonnement 12 mois suisse", "status": "pending" },
+    { "keyword": "iptv firestick suisse", "status": "pending" },
+    { "keyword": "iptv m3u suisse", "status": "pending" }
+  ]
+}
