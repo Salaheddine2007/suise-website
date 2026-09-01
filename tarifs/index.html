@@ -46,26 +46,15 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {
-      "@type":"Question",
-      "name":"Quel moyen de paiement est accepté ?",
-      "acceptedAnswer":{"@type":"Answer","text":"Les modalités de paiement vous sont communiquées directement sur WhatsApp lors de la prise de contact."}
-    },
-    {
-      "@type":"Question",
-      "name":"Puis-je tester avant de m'engager sur une longue durée ?",
-      "acceptedAnswer":{"@type":"Answer","text":"Oui, la formule 1 mois permet de tester le service avant de choisir une formule plus longue."}
-    },
-    {
-      "@type":"Question",
-      "name":"Le prix inclut-il toutes les chaînes ?",
-      "acceptedAnswer":{"@type":"Answer","text":"Oui, toutes les formules donnent accès au même catalogue complet — la différence entre les offres porte sur la durée et le nombre de connexions simultanées."}
-    }
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Accueil","item":"https://iptvsuise.com/"},
+    {"@type":"ListItem","position":2,"name":"Tarifs","item":"https://iptvsuise.com/tarifs/"}
   ]
 }
 </script>
+<!-- No FAQPage schema here by design: /faq/ is canonical for these
+     questions. Visible accordion below stays for on-page UX. -->
 </head>
 <body>
 <svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
