@@ -210,13 +210,13 @@ table.compare td.no{color:var(--slate-light)}
 table.compare tr:last-child td{border-bottom:none}
 
 /* Pricing */
-.device-tabs{display:flex;justify-content:center;gap:6px;background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;padding:5px;max-width:420px;margin:0 auto 36px}
+.device-tabs{display:flex;justify-content:center;gap:4px;background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;padding:6px;max-width:440px;margin:0 auto 36px}
 .device-tab{
-  flex:1;border:none;background:transparent;border-radius:999px;padding:10px 16px;
+  flex:1;border:none;background:transparent;border-radius:999px;padding:12px 18px;
   font-family:'Inter',sans-serif;font-size:14px;font-weight:600;color:var(--slate);cursor:pointer;
-  transition:background .15s ease,color .15s ease;
+  transition:background .2s ease,color .2s ease,box-shadow .2s ease;
 }
-.device-tab.active{background:var(--red);color:#fff;box-shadow:var(--shadow-sm)}
+.device-tab.active{background:var(--red);color:#fff;font-weight:700;box-shadow:0 10px 22px rgba(216,35,42,.35)}
 .price-card-payments{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}
 .price-card-payments img{max-height:19px;width:auto;opacity:.85}
 .price-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
