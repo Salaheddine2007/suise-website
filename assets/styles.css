@@ -125,6 +125,13 @@ header.site{
 }
 .hero-visual .badge strong{display:block;font-family:'Fraunces',serif;font-size:15px;margin-bottom:2px}
 .hero-visual .badge span{font-size:13px;color:rgba(255,255,255,.65)}
+.hero-devices{position:absolute;top:22px;right:22px;left:22px;display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.hero-devices span{
+  width:42px;height:42px;border-radius:11px;background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;color:#fff;
+}
+.hero-devices svg{width:20px;height:20px}
 
 /* Feature grid */
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
@@ -153,6 +160,15 @@ table.compare td.no{color:var(--slate-light)}
 table.compare tr:last-child td{border-bottom:none}
 
 /* Pricing */
+.device-tabs{display:flex;justify-content:center;gap:6px;background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;padding:5px;max-width:420px;margin:0 auto 36px}
+.device-tab{
+  flex:1;border:none;background:transparent;border-radius:999px;padding:10px 16px;
+  font-family:'Inter',sans-serif;font-size:14px;font-weight:600;color:var(--slate);cursor:pointer;
+  transition:background .15s ease,color .15s ease;
+}
+.device-tab.active{background:var(--red);color:#fff;box-shadow:var(--shadow-sm)}
+.price-card-payments{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}
+.price-card-payments img{max-height:19px;width:auto;opacity:.85}
 .price-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .price-card{
   background:#fff;border:1px solid var(--border);border-top:4px solid var(--border);border-radius:var(--radius);

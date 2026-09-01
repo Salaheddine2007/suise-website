@@ -41,68 +41,282 @@
 
 <section class="section">
   <div class="wrap">
-    <div class="price-grid">
+    <div class="device-tabs" role="tablist" aria-label="Nombre d'appareils">
+      <button type="button" class="device-tab active" data-target="devices-1">1 appareil</button>
+      <button type="button" class="device-tab" data-target="devices-2">2 appareils</button>
+      <button type="button" class="device-tab" data-target="devices-3">3 appareils</button>
+    </div>
+
+    <div class="price-grid" id="devices-1">
       <div class="price-card">
         <div class="plan-name">Test</div>
-        <div class="amount">15<sup>CHF</sup></div>
+        <div class="amount">15.99<sup>CHF</sup></div>
         <div class="per">1 mois</div>
         <ul>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Tous les appareils</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 1 connexion simultanée</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
         </ul>
         <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
       </div>
       <div class="price-card featured">
         <div class="badge-pill">POPULAIRE</div>
         <div class="plan-name">3 mois</div>
-        <div class="amount">35<sup>CHF</sup></div>
-        <div class="per">soit ~11.70 CHF/mois</div>
+        <div class="amount">30.99<sup>CHF</sup></div>
+        <div class="per">soit ~10.33 CHF/mois</div>
         <ul>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Tous les appareils</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 1 connexion simultanée</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
         </ul>
         <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-primary">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
       </div>
       <div class="price-card">
         <div class="plan-name">6 mois</div>
-        <div class="amount">50<sup>CHF</sup></div>
-        <div class="per">soit ~8.30 CHF/mois</div>
+        <div class="amount">45.99<sup>CHF</sup></div>
+        <div class="per">soit ~7.67 CHF/mois</div>
         <ul>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Tous les appareils</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 1 connexion simultanée</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
         </ul>
         <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
       </div>
       <div class="price-card">
         <div class="badge-pill gold">MEILLEURE OFFRE</div>
         <div class="plan-name">12 mois</div>
-        <div class="amount">75<sup>CHF</sup></div>
-        <div class="per">soit ~6.25 CHF/mois</div>
+        <div class="amount">65.99<sup>CHF</sup></div>
+        <div class="per">soit ~5.50 CHF/mois</div>
         <ul>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
-          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Tous les appareils</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 1 connexion simultanée</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
         </ul>
         <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+    </div>
+
+    <div class="price-grid" id="devices-2" hidden>
+      <div class="price-card">
+        <div class="plan-name">Test</div>
+        <div class="amount">23.99<sup>CHF</sup></div>
+        <div class="per">1 mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 2 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card featured">
+        <div class="badge-pill">POPULAIRE</div>
+        <div class="plan-name">3 mois</div>
+        <div class="amount">45.99<sup>CHF</sup></div>
+        <div class="per">soit ~15.33 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 2 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-primary">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="plan-name">6 mois</div>
+        <div class="amount">65.99<sup>CHF</sup></div>
+        <div class="per">soit ~11.00 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 2 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="badge-pill gold">MEILLEURE OFFRE</div>
+        <div class="plan-name">12 mois</div>
+        <div class="amount">109.99<sup>CHF</sup></div>
+        <div class="per">soit ~9.17 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 2 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+    </div>
+
+    <div class="price-grid" id="devices-3" hidden>
+      <div class="price-card">
+        <div class="plan-name">Test</div>
+        <div class="amount">30.99<sup>CHF</sup></div>
+        <div class="per">1 mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 3 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card featured">
+        <div class="badge-pill">POPULAIRE</div>
+        <div class="plan-name">3 mois</div>
+        <div class="amount">65.99<sup>CHF</sup></div>
+        <div class="per">soit ~22.00 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 3 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-primary">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="plan-name">6 mois</div>
+        <div class="amount">109.99<sup>CHF</sup></div>
+        <div class="per">soit ~18.33 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 3 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="badge-pill gold">MEILLEURE OFFRE</div>
+        <div class="plan-name">12 mois</div>
+        <div class="amount">159.99<sup>CHF</sup></div>
+        <div class="per">soit ~13.33 CHF/mois</div>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Serveur Premium</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Qualité HD &amp; 4K</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> VOD inclus</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> 3 connexions simultanées</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Support réactif</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg> Mises à jour gratuites</li>
+        </ul>
+        <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-outline">Choisir cette offre</a>
+        <div class="price-card-payments">
+          <img src="/assets/payments/visa.svg" alt="Visa" loading="lazy" width="28" height="13">
+          <img src="/assets/payments/mastercard.svg" alt="Mastercard" loading="lazy" width="20" height="16">
+          <img src="/assets/payments/paypal.svg" alt="PayPal" loading="lazy" width="16" height="19">
+          <img src="/assets/payments/applepay.svg" alt="Apple Pay" loading="lazy" width="30" height="13">
+        </div>
       </div>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var tabs = document.querySelectorAll('.device-tab');
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.classList.remove('active'); });
+      tab.classList.add('active');
+      document.querySelectorAll('.price-grid[id^="devices-"]').forEach(function(g){ g.hidden = true; });
+      var target = document.getElementById(tab.dataset.target);
+      if (target) target.hidden = false;
+    });
+  });
+})();
+</script>
 
 <section class="section section-alt">
   <div class="wrap">
@@ -141,7 +355,7 @@
       </details>
       <details class="faq-item">
         <summary>Le prix inclut-il toutes les chaînes ?</summary>
-        <p>Oui, toutes les formules donnent accès au catalogue complet — la différence entre les offres porte uniquement sur la durée.</p>
+        <p>Oui, toutes les formules donnent accès au même catalogue complet — la différence entre les offres porte sur la durée et le nombre de connexions simultanées (1, 2 ou 3 appareils).</p>
       </details>
     </div>
   </div>
