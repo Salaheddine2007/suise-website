@@ -1,7 +1,7 @@
 {
-  "note": "Starter list, manually seeded (no Ahrefs/DataForSEO export available for the CH-FR market yet). Volume/KD are unknown until a real keyword export is provided — expand before this list runs dry at daily cadence.",
+  "note": "Starter list, manually seeded (no Ahrefs/DataForSEO export available for the CH-FR market yet). Volume/KD are unknown until a real keyword export is provided — expand before this list runs dry at daily cadence. 2026-09-01: appended a content-calendar batch from a claude-seo audit brief (comparatif/avis/légal/device-specific topics) to feed the existing daily routine instead of hand-writing 8-10 articles in one session. IMPORTANT for 'iptv essai gratuit suisse': the site does NOT offer a free trial (confirmed in /faq/ and llms.txt) — any article targeting this keyword must honestly clarify that upfront (redirect to the paid 1-month formula) rather than imply a free trial exists.",
   "focus_keyword": "iptv suisse",
-  "secondary_keywords": ["abonnement iptv suisse", "meilleur iptv suisse", "iptv romandie"],
+  "secondary_keywords": ["abonnement iptv suisse", "meilleur iptv suisse", "iptv romandie", "iptv suisse avis", "iptv suisse fiable", "prix iptv suisse"],
   "keywords": [
     { "keyword": "guide iptv suisse", "status": "published", "slug": "guide-iptv-suisse", "published_date": "2026-09-01" },
     { "keyword": "abonnement iptv suisse", "status": "pending" },
@@ -27,6 +27,12 @@
     { "keyword": "iptv essai gratuit suisse", "status": "pending" },
     { "keyword": "iptv abonnement 12 mois suisse", "status": "pending" },
     { "keyword": "iptv firestick suisse", "status": "pending" },
-    { "keyword": "iptv m3u suisse", "status": "pending" }
+    { "keyword": "iptv m3u suisse", "status": "pending" },
+    { "keyword": "prix iptv suisse comparatif", "status": "pending" },
+    { "keyword": "iptv suisse fiable", "status": "pending" },
+    { "keyword": "meilleures chaines iptv suisse", "status": "pending" },
+    { "keyword": "iptv smart tv samsung lg suisse", "status": "pending" },
+    { "keyword": "iptv legal en suisse", "status": "pending" },
+    { "keyword": "comparatif offres iptv suisse", "status": "pending" }
   ]
 }

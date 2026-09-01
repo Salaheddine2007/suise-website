@@ -3,6 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon-512.png">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
 <title>IPTV Suisse | Abonnement IPTV Premium en Suisse Romande</title>
 <meta name="description" content="Abonnement IPTV en Suisse : chaînes sportives, films, séries et VOD en HD/4K, compatible sur tous vos appareils. Essai rapide, support réactif, activation immédiate.">
 <link rel="canonical" href="https://iptvsuise.com/">
@@ -10,10 +15,30 @@
 <meta property="og:title" content="IPTV Suisse | Abonnement IPTV Premium en Suisse Romande">
 <meta property="og:description" content="Chaînes sportives, films, séries et VOD en HD/4K. Compatible sur tous vos appareils. Activation rapide.">
 <meta property="og:url" content="https://iptvsuise.com/">
+<meta property="og:image" content="https://iptvsuise.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"IPTV Suisse",
+  "url":"https://iptvsuise.com/",
+  "logo":"https://iptvsuise.com/assets/icons/icon-512.png",
+  "contactPoint":[{
+    "@type":"ContactPoint",
+    "contactType":"customer service",
+    "url":"https://wa.me/32497063717",
+    "areaServed":"CH",
+    "availableLanguage":["French"]
+  }]
+}
+</script>
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -23,6 +48,34 @@
   "areaServed":"CH",
   "url":"https://iptvsuise.com/",
   "provider":{"@type":"Organization","name":"IPTV Suisse","url":"https://iptvsuise.com/"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Comment fonctionne un abonnement IPTV ?",
+      "acceptedAnswer":{"@type":"Answer","text":"L'IPTV diffuse les chaînes et le contenu VOD via internet plutôt que par câble ou satellite. Il suffit d'installer une application compatible sur votre TV, box ou smartphone et de vous connecter avec les identifiants fournis à l'activation."}
+    },
+    {
+      "@type":"Question",
+      "name":"Sur quels appareils puis-je regarder ?",
+      "acceptedAnswer":{"@type":"Answer","text":"Smart TV (Samsung, LG, Android TV), box Android, Amazon Fire Stick, smartphone et tablette (iOS/Android), ainsi que certains navigateurs."}
+    },
+    {
+      "@type":"Question",
+      "name":"L'activation est-elle rapide ?",
+      "acceptedAnswer":{"@type":"Answer","text":"Après paiement, vos identifiants sont généralement envoyés rapidement par WhatsApp, avec les instructions d'installation."}
+    },
+    {
+      "@type":"Question",
+      "name":"Puis-je changer de formule en cours d'abonnement ?",
+      "acceptedAnswer":{"@type":"Answer","text":"Oui, contactez notre support sur WhatsApp pour ajuster la durée de votre abonnement."}
+    }
+  ]
 }
 </script>
 </head>
@@ -35,7 +88,7 @@
       <a href="/">Accueil</a>
       <a href="/tarifs/">Tarifs</a>
       <a href="/blog/">Blog</a>
-      <a href="#faq">FAQ</a>
+      <a href="/faq/">FAQ</a>
     </nav>
     <div class="nav-cta">
       <a href="/tarifs/" class="btn btn-outline">Voir les tarifs</a>
@@ -643,7 +696,7 @@
           <li><a href="/">Accueil</a></li>
           <li><a href="/tarifs/">Nos offres</a></li>
           <li><a href="/forfaits-multi-ecrans/">Multi-écrans</a></li>
-          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/faq/">FAQ</a></li>
           <li><a href="/installation/">Installation</a></li>
           <li><a href="/#catalogue">Chaînes</a></li>
           <li><a href="/#comparatif">Comparatif</a></li>
