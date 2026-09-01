@@ -144,6 +144,33 @@ header.site{
 .card h3{font-size:18px;margin-bottom:8px}
 .card p{color:var(--slate);font-size:15px}
 
+/* Device compatibility grid */
+.device-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.device-card{
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  padding:26px 12px;text-align:center;box-shadow:var(--shadow-sm);
+}
+.device-card .icon-circle{
+  width:56px;height:56px;border-radius:50%;background:rgba(216,35,42,.1);
+  display:flex;align-items:center;justify-content:center;color:var(--red);
+  margin:0 auto 14px;
+}
+.device-card .icon-circle svg{width:26px;height:26px}
+.device-card span{font-weight:700;font-size:14px;color:var(--ink)}
+@media(max-width:900px){.device-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.device-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* Guide teaser */
+.guide-teaser{
+  display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center;
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);
+  padding:40px 44px;box-shadow:var(--shadow-sm);
+}
+.guide-teaser ul{display:flex;flex-direction:column;gap:10px;margin-top:18px}
+.guide-teaser ul li{display:flex;gap:10px;font-size:15px;color:var(--slate)}
+.guide-teaser ul li svg{flex:none;color:var(--red);margin-top:3px}
+@media(max-width:768px){.guide-teaser{grid-template-columns:1fr;text-align:left}}
+
 /* Category chips */
 .chip-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .chip{
