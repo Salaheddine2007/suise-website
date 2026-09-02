@@ -19,8 +19,10 @@
     },
     {
       "keyword": "abonnement iptv suisse",
-      "status": "pending",
-      "trunk": "buying_providers"
+      "status": "published",
+      "trunk": "buying_providers",
+      "slug": "abonnement-iptv-suisse",
+      "published_date": "2026-09-02"
     },
     {
       "keyword": "meilleur iptv suisse",
