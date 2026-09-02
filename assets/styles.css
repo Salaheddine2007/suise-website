@@ -137,6 +137,23 @@ header.site{
 }
 .hero-visual .badge strong{display:block;font-family:'Fraunces',serif;font-size:15px;margin-bottom:2px}
 .hero-visual .badge span{font-size:13px;color:rgba(255,255,255,.65)}
+.hero-visual .play-circle{
+  position:absolute;top:48%;left:50%;transform:translate(-50%,-50%);
+  width:120px;height:120px;border-radius:50%;
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);
+  display:flex;align-items:center;justify-content:center;
+  backdrop-filter:blur(6px);
+}
+.hero-visual .play-circle::after{
+  content:'';width:0;height:0;margin-left:6px;
+  border-top:16px solid transparent;border-bottom:16px solid transparent;
+  border-left:26px solid rgba(255,255,255,.85);
+}
+.hero-visual .content-chip{
+  position:absolute;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
+  border-radius:999px;padding:7px 14px;font-size:12px;font-weight:600;color:rgba(255,255,255,.75);
+  backdrop-filter:blur(6px);
+}
 .hero-devices{position:absolute;top:22px;right:22px;left:22px;display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}
 .hero-devices span{
   width:42px;height:42px;border-radius:11px;background:rgba(255,255,255,.08);
