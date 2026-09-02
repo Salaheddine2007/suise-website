@@ -244,7 +244,8 @@ header.site{
 }
 
 /* Comparison table */
-table.compare{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm)}
+.compare-scroll{overflow-x:auto;border-radius:var(--radius);box-shadow:var(--shadow-sm)}
+table.compare{width:100%;min-width:520px;border-collapse:collapse;background:#fff;box-shadow:none}
 table.compare th,table.compare td{padding:16px 18px;text-align:left;border-bottom:1px solid var(--border);font-size:15px}
 table.compare th{background:var(--bg-alt);font-family:'Fraunces',serif;font-size:14px}
 table.compare td.yes{color:var(--success);font-weight:700}
@@ -341,7 +342,7 @@ table.compare tr:last-child td{border-bottom:none}
 /* Footer */
 footer.site{background:var(--ink);color:rgba(255,255,255,.6);padding:64px 0 32px;margin-top:40px}
 .footer-grid{display:grid;grid-template-columns:1.2fr repeat(4,1fr);gap:32px;margin-bottom:48px}
-footer.site h4{color:#fff;font-size:14px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.03em}
+footer.site .foot-heading{color:#fff;font-size:14px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.03em;font-weight:700}
 footer.site ul{display:flex;flex-direction:column;gap:10px;font-size:14px}
 footer.site a:hover{color:#fff}
 footer.site .foot-logo{display:flex;align-items:center;gap:10px;color:#fff;font-family:'Fraunces',serif;font-weight:700;font-size:18px;margin-bottom:14px}

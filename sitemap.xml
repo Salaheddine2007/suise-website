@@ -78,16 +78,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://iptvsuise.com/conditions/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://iptvsuise.com/confidentialite/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  <!-- /conditions/ and /confidentialite/ intentionally excluded: both carry
+       <meta name="robots" content="noindex, follow">, so they should not be
+       listed as indexable canonical URLs -->
+
 </urlset>
