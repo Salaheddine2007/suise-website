@@ -172,6 +172,19 @@ header.site{
 @media(max-width:900px){.device-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:560px){.device-grid{grid-template-columns:repeat(2,1fr)}}
 
+/* Trust/security section (dark) */
+.trust-section{background:var(--ink)}
+.trust-section .eyebrow{background:rgba(216,35,42,.18);color:#ff8a8f}
+.trust-section .section-head h2{color:#fff}
+.trust-section .section-head p{color:rgba(255,255,255,.6)}
+.trust-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:28px}
+.trust-card .icon{
+  width:46px;height:46px;border-radius:12px;background:rgba(216,35,42,.18);
+  display:flex;align-items:center;justify-content:center;color:var(--red);margin-bottom:18px;
+}
+.trust-card h3{font-size:18px;margin-bottom:8px;color:#fff}
+.trust-card p{color:rgba(255,255,255,.6);font-size:15px}
+
 /* Advantages */
 .advantages{display:grid;grid-template-columns:1fr .85fr;gap:56px;align-items:center}
 .advantages ul{display:flex;flex-direction:column;gap:16px;margin-top:24px}

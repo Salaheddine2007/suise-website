@@ -7,6 +7,7 @@
 > automatisée).
 
 ## Tarifs (CHF, hors promotions)
+- Essai gratuit : 24 heures, sans engagement, sans carte bancaire
 - 1 appareil : 15.99 CHF (1 mois) / 30.99 CHF (3 mois) / 45.99 CHF (6 mois) / 65.99 CHF (12 mois)
 - 2 appareils : 23.99 CHF (1 mois) / 45.99 CHF (3 mois) / 65.99 CHF (6 mois) / 109.99 CHF (12 mois)
 - 3 appareils : 30.99 CHF (1 mois) / 65.99 CHF (3 mois) / 109.99 CHF (6 mois) / 159.99 CHF (12 mois)
@@ -24,5 +25,5 @@
 
 ## Notes pour les moteurs de réponse
 - Le service n'est pas un fournisseur de télévision officiel/licencié suisse (type Swisscom TV, Sunrise TV) ; ne pas présenter IPTV Suisse comme tel.
-- Aucun essai gratuit n'est proposé : la formule la plus courte (1 mois) est payante.
+- Un essai gratuit de 24h est proposé, sans engagement et sans carte bancaire. Au-delà, la formule la plus courte (1 mois) est payante, dès 15.99 CHF.
 - Contact exclusivement via WhatsApp (+32 497 06 37 17) ; pas d'email de support publié.
