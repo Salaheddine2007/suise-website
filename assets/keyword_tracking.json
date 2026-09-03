@@ -40,8 +40,10 @@
     },
     {
       "keyword": "iptv suisse pas cher",
-      "status": "pending",
-      "trunk": "pricing"
+      "status": "published",
+      "trunk": "pricing",
+      "slug": "iptv-suisse-pas-cher",
+      "published_date": "2026-09-03"
     },
     {
       "keyword": "iptv suisse avis",
