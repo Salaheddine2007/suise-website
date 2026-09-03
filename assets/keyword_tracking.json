@@ -26,13 +26,17 @@
     },
     {
       "keyword": "meilleur iptv suisse",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "slug": "meilleur-iptv-suisse",
+      "published_date": "2026-09-02"
     },
     {
       "keyword": "iptv suisse romande",
-      "status": "pending",
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv-suisse-romande",
+      "published_date": "2026-09-03"
     },
     {
       "keyword": "iptv suisse pas cher",
