@@ -17,8 +17,13 @@
 - Accueil / Tarifs : https://iptvsuise.com/#tarifs
 - Forfaits multi-écrans : https://iptvsuise.com/forfaits-multi-ecrans/
 - Installation : https://iptvsuise.com/installation/
+- IPTV Suisse Romande (couverture régionale) : https://iptvsuise.com/iptv-suisse-romande/
 - Blog / guides : https://iptvsuise.com/blog/
 - Guide : comment choisir son abonnement IPTV en Suisse : https://iptvsuise.com/blog/guide-iptv-suisse/
+- Guide : IPTV sur Samsung TV : https://iptvsuise.com/blog/iptv-samsung-tv/
+- Guide : IPTV sur Android TV et Google TV : https://iptvsuise.com/blog/iptv-android-tv/
+- Guide : IPTV sur Apple TV et Fire TV Stick : https://iptvsuise.com/blog/iptv-apple-tv-fire-tv/
+- Guide : IPTV et connexion internet (Swisscom, Sunrise, Salt, Init7) : https://iptvsuise.com/blog/iptv-connexion-internet-suisse/
 - À propos : https://iptvsuise.com/a-propos/
 - Contact : https://iptvsuise.com/contact/
 
