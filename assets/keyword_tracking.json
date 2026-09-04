@@ -47,8 +47,10 @@
     },
     {
       "keyword": "iptv suisse avis",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "slug": "iptv-suisse-avis",
+      "published_date": "2026-09-04"
     },
     {
       "keyword": "iptv suisse légal",
