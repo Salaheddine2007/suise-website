@@ -68,8 +68,10 @@
     },
     {
       "keyword": "iptv smart tv suisse",
-      "status": "pending",
-      "trunk": "devices_boxes"
+      "status": "published",
+      "trunk": "devices_boxes",
+      "slug": "iptv-smart-tv-suisse",
+      "published_date": "2026-09-06"
     },
     {
       "keyword": "iptv android box suisse",
