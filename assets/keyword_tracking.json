@@ -75,8 +75,10 @@
     },
     {
       "keyword": "iptv android box suisse",
-      "status": "pending",
-      "trunk": "devices_boxes"
+      "status": "published",
+      "trunk": "devices_boxes",
+      "slug": "iptv-android-box-suisse",
+      "published_date": "2026-09-07"
     },
     {
       "keyword": "iptv suisse 4k",
