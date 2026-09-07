@@ -82,8 +82,10 @@
     },
     {
       "keyword": "iptv suisse 4k",
-      "status": "pending",
-      "trunk": "channels_content"
+      "status": "published",
+      "trunk": "channels_content",
+      "slug": "iptv-suisse-4k",
+      "published_date": "2026-09-07"
     },
     {
       "keyword": "iptv sport suisse",
