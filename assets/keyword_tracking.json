@@ -89,8 +89,10 @@
     },
     {
       "keyword": "iptv sport suisse",
-      "status": "pending",
-      "trunk": "channels_content"
+      "status": "published",
+      "trunk": "channels_content",
+      "slug": "iptv-sport-suisse",
+      "published_date": "2026-09-08"
     },
     {
       "keyword": "iptv genève",
