@@ -96,8 +96,10 @@
     },
     {
       "keyword": "iptv genève",
-      "status": "pending",
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv-geneve",
+      "published_date": "2026-09-09"
     },
     {
       "keyword": "iptv lausanne",
