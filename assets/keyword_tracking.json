@@ -117,8 +117,10 @@
     },
     {
       "keyword": "iptv valais",
-      "status": "pending",
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv-valais",
+      "published_date": "2026-09-10"
     },
     {
       "keyword": "meilleure application iptv 2026",
