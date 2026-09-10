@@ -110,8 +110,10 @@
     },
     {
       "keyword": "iptv fribourg",
-      "status": "pending",
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv-fribourg",
+      "published_date": "2026-09-10"
     },
     {
       "keyword": "iptv valais",
