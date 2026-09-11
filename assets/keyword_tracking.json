@@ -124,8 +124,10 @@
     },
     {
       "keyword": "meilleure application iptv 2026",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "slug": "meilleure-application-iptv-2026",
+      "published_date": "2026-09-11"
     },
     {
       "keyword": "iptv smarters pro configuration",
