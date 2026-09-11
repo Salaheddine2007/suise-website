@@ -131,7 +131,9 @@
     },
     {
       "keyword": "iptv smarters pro configuration",
-      "status": "pending",
+      "status": "published",
+      "slug": "iptv-smarters-pro-configuration",
+      "published_date": "2026-09-11",
       "trunk": "setup_install"
     },
     {
