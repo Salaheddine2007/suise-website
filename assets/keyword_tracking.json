@@ -145,8 +145,10 @@
     },
     {
       "keyword": "iptv chaînes suisses romandes",
-      "status": "pending",
-      "trunk": "channels_content"
+      "status": "published",
+      "trunk": "channels_content",
+      "slug": "iptv-chaines-suisses-romandes",
+      "published_date": "2026-09-12"
     },
     {
       "keyword": "iptv vs swisscom tv",
