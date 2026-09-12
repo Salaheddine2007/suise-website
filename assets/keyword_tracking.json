@@ -138,8 +138,10 @@
     },
     {
       "keyword": "iptv sans coupure",
-      "status": "pending",
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv-sans-coupure",
+      "published_date": "2026-09-12"
     },
     {
       "keyword": "iptv chaînes suisses romandes",
