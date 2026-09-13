@@ -152,8 +152,10 @@
     },
     {
       "keyword": "iptv vs swisscom tv",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "slug": "iptv-vs-swisscom-tv",
+      "published_date": "2026-09-13"
     },
     {
       "keyword": "iptv essai gratuit suisse",
