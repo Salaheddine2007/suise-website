@@ -159,8 +159,10 @@
     },
     {
       "keyword": "iptv essai gratuit suisse",
-      "status": "pending",
-      "trunk": "pricing"
+      "status": "published",
+      "trunk": "pricing",
+      "slug": "iptv-essai-gratuit-suisse",
+      "published_date": "2026-09-13"
     },
     {
       "keyword": "iptv abonnement 12 mois suisse",
