@@ -166,8 +166,10 @@
     },
     {
       "keyword": "iptv abonnement 12 mois suisse",
-      "status": "pending",
-      "trunk": "buying_providers"
+      "status": "published",
+      "trunk": "buying_providers",
+      "slug": "iptv-abonnement-12-mois-suisse",
+      "published_date": "2026-09-14"
     },
     {
       "keyword": "iptv firestick suisse",
