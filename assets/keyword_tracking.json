@@ -180,8 +180,10 @@
     },
     {
       "keyword": "iptv m3u suisse",
-      "status": "pending",
-      "trunk": "apps_players"
+      "status": "published",
+      "trunk": "apps_players",
+      "slug": "iptv-m3u-suisse",
+      "published_date": "2026-09-16"
     },
     {
       "keyword": "prix iptv suisse comparatif",
