@@ -187,8 +187,10 @@
     },
     {
       "keyword": "prix iptv suisse comparatif",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "slug": "prix-iptv-suisse-comparatif",
+      "published_date": "2026-09-16"
     },
     {
       "keyword": "iptv suisse fiable",
