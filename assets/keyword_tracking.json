@@ -201,8 +201,10 @@
     },
     {
       "keyword": "meilleures chaines iptv suisse",
-      "status": "pending",
-      "trunk": "reviews_comparisons"
+      "status": "published",
+      "trunk": "reviews_comparisons",
+      "slug": "meilleures-chaines-iptv-suisse",
+      "published_date": "2026-09-17"
     },
     {
       "keyword": "iptv smart tv samsung lg suisse",
