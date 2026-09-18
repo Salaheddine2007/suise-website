@@ -215,8 +215,10 @@
     },
     {
       "keyword": "iptv legal en suisse",
-      "status": "pending",
-      "trunk": "legality"
+      "status": "published",
+      "trunk": "legality",
+      "slug": "iptv-legal-en-suisse",
+      "published_date": "2026-09-18"
     },
     {
       "keyword": "comparatif offres iptv suisse",
