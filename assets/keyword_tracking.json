@@ -208,8 +208,10 @@
     },
     {
       "keyword": "iptv smart tv samsung lg suisse",
-      "status": "pending",
-      "trunk": "devices_boxes"
+      "status": "published",
+      "trunk": "devices_boxes",
+      "slug": "iptv-smart-tv-samsung-lg-suisse",
+      "published_date": "2026-09-18"
     },
     {
       "keyword": "iptv legal en suisse",
