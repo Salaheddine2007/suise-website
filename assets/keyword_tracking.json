@@ -231,10 +231,10 @@
       "keyword": "iptv",
       "volume": 9900,
       "kd": 31,
-      "status": "pending",
-      "posted_date": null,
-      "post_id": null,
-      "trunk": "general_iptv"
+      "status": "published",
+      "trunk": "general_iptv",
+      "slug": "iptv",
+      "published_date": "2026-09-24"
     },
     {
       "keyword": "iptv suisse",
