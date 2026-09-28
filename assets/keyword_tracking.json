@@ -240,10 +240,12 @@
       "keyword": "iptv suisse",
       "volume": 2900,
       "kd": 13,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-09-28",
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "iptv-suisse",
+      "published_date": "2026-09-28"
     },
     {
       "keyword": "smart iptv",
