@@ -251,10 +251,12 @@
       "keyword": "smart iptv",
       "volume": 2400,
       "kd": 35,
-      "status": "pending",
-      "posted_date": null,
-      "post_id": null,
-      "trunk": "general_iptv"
+      "status": "published",
+      "posted_date": "2026-09-30",
+      "post_id": "smart-iptv",
+      "trunk": "general_iptv",
+      "slug": "smart-iptv",
+      "published_date": "2026-09-30"
     },
     {
       "keyword": "iptv smarters pro",
