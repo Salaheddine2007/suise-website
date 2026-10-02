@@ -373,10 +373,12 @@
       "keyword": "iptv shqip",
       "volume": 390,
       "kd": 21,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "channels_content"
+      "trunk": "channels_content",
+      "slug": "iptv-shqip",
+      "published_date": "2026-10-02"
     },
     {
       "keyword": "iptv abonnement",
