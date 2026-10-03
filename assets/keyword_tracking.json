@@ -415,10 +415,12 @@
       "keyword": "iptv portugal",
       "volume": 320,
       "kd": 30,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "channels_content"
+      "trunk": "channels_content",
+      "slug": "iptv-portugal",
+      "published_date": "2026-10-03"
     },
     {
       "keyword": "iptv smart",
