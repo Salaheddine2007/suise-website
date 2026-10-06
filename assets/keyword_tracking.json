@@ -519,10 +519,12 @@
       "keyword": "my iptv app",
       "volume": 260,
       "kd": 33,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "apps_players"
+      "trunk": "apps_players",
+      "slug": "my-iptv-app",
+      "published_date": "2026-10-06"
     },
     {
       "keyword": "smarters iptv",
