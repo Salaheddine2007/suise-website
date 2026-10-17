@@ -13893,10 +13893,12 @@
       "keyword": "iptv risques suisse",
       "volume": 20,
       "kd": 0,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "legality"
+      "trunk": "legality",
+      "slug": "iptv-risques-suisse",
+      "published_date": "2026-10-17"
     },
     {
       "keyword": "iptv romania gratis",
