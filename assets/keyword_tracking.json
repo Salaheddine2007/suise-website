@@ -848,10 +848,12 @@
       "keyword": "buy iptv",
       "volume": 140,
       "kd": 22,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "buying_providers"
+      "trunk": "buying_providers",
+      "slug": "buy-iptv",
+      "published_date": "2026-10-18"
     },
     {
       "keyword": "iptv illegal",
