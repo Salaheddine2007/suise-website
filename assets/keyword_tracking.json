@@ -587,10 +587,12 @@
       "keyword": "playlist m3u iptv",
       "volume": 210,
       "kd": 35,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "apps_players"
+      "trunk": "apps_players",
+      "slug": "playlist-m3u-iptv",
+      "published_date": "2026-10-24"
     },
     {
       "keyword": "xtream iptv",
