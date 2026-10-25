@@ -609,10 +609,12 @@
       "keyword": "iptv m3u playlist",
       "volume": 210,
       "kd": 46,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-10-25",
       "post_id": null,
-      "trunk": "apps_players"
+      "trunk": "apps_players",
+      "slug": "iptv-m3u-playlist",
+      "published_date": "2026-10-25"
     },
     {
       "keyword": "iptv teste",
