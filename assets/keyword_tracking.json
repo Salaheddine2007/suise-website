@@ -685,9 +685,11 @@
       "keyword": "meilleur iptv",
       "volume": 170,
       "kd": 18,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
+      "slug": "meilleur-iptv",
+      "published_date": "2026-10-30",
       "trunk": "reviews_comparisons"
     },
     {
