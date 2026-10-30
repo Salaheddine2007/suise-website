@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/icon-512.png">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<title>IPTV Web Player : regarder son abonnement IPTV Suisse dans un navigateur (2026)</title>
+<meta name="description" content="Peut-on utiliser un IPTV Web Player pour regarder son abonnement IPTV Suisse directement dans le navigateur, sans application ? Méthodes qui fonctionnent, limites techniques et risques à connaître.">
+<link rel="canonical" href="https://iptvsuise.com/blog/iptv-web-player/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IPTV Web Player : regarder son abonnement IPTV Suisse dans un navigateur">
+<meta property="og:description" content="Méthodes qui fonctionnent réellement, limites techniques et risques des sites IPTV web player tiers, pour votre abonnement IPTV Suisse.">
+<meta property="og:url" content="https://iptvsuise.com/blog/iptv-web-player/">
+<meta property="og:image" content="https://iptvsuise.com/blog/iptv-web-player/thumb.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="450">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"IPTV Web Player : regarder son abonnement IPTV Suisse dans un navigateur",
+  "author":{"@type":"Organization","name":"IPTV Suisse","url":"https://iptvsuise.com/a-propos/"},
+  "publisher":{"@type":"Organization","name":"IPTV Suisse","logo":{"@type":"ImageObject","url":"https://iptvsuise.com/assets/icons/icon-512.png"}},
+  "datePublished":"2026-10-30",
+  "dateModified":"2026-10-30",
+  "image":"https://iptvsuise.com/blog/iptv-web-player/thumb.jpg",
+  "mainEntityOfPage":"https://iptvsuise.com/blog/iptv-web-player/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Accueil","item":"https://iptvsuise.com/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://iptvsuise.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"IPTV Web Player","item":"https://iptvsuise.com/blog/iptv-web-player/"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="/" class="logo"><span class="flag"></span> IPTV Suisse</a>
+    <nav class="nav-links">
+      <a href="/">Accueil</a>
+      <a href="/#tarifs">Tarifs</a>
+      <a href="/blog/">Blog</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a data-track="buy_click" href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<article class="article">
+  <div class="meta">Applications &middot; Publié le 30 octobre 2026 &middot; 12 min de lecture &middot; Rédigé par l'équipe IPTV Suisse</div>
+  <h1>IPTV Web Player : regarder un abonnement IPTV Suisse dans un navigateur, sans application</h1>
+
+  <p>« IPTV web player » revient régulièrement dans les recherches de personnes qui voudraient regarder leur <strong>abonnement IPTV Suisse</strong> sans installer la moindre application : directement dans Chrome, Firefox, Safari ou Edge, sur un ordinateur professionnel où l'installation de logiciels est restreinte, ou simplement par envie de simplicité. La question mérite une réponse honnête plutôt qu'un oui franc : un flux IPTV peut effectivement se lire dans un navigateur, mais cela dépend fortement du format du flux, du navigateur utilisé, et de la méthode choisie. Ce guide explique ce qu'un lecteur web peut réellement faire, les méthodes qui fonctionnent concrètement, celles à éviter absolument, et pourquoi une application dédiée reste préférable pour un usage quotidien avec un <strong>abonnement IPTV Suisse</strong>.</p>
+
+  <h2>Qu'est-ce qu'un IPTV Web Player, concrètement ?</h2>
+  <p>Un IPTV web player est, en théorie, n'importe quelle page web capable d'afficher un flux vidéo en direct à partir d'une URL, sans passer par une application installée sur l'appareil. Techniquement, un flux IPTV moderne est le plus souvent diffusé au format <strong>HLS</strong> (HTTP Live Streaming, reconnaissable à son extension <code>.m3u8</code>), un protocole développé par Apple et aujourd'hui largement répandu, y compris en dehors de l'écosystème Apple. Un navigateur web sait afficher de la vidéo nativement via la balise HTML <code>&lt;video&gt;</code>, mais cette balise ne sait pas nativement décoder un flux HLS segmenté dans tous les navigateurs : Safari (sur Mac et iOS) le fait de façon native, alors que Chrome, Firefox et Edge nécessitent une couche logicielle supplémentaire, le plus souvent la bibliothèque open source <a class="inline-link" href="https://github.com/video-dev/hls.js" target="_blank" rel="noopener">hls.js</a>, qui reconstitue la lecture HLS en JavaScript côté navigateur.</p>
+  <p>Il existe une seconde famille de flux, utilisée par de nombreux fournisseurs IPTV sous le nom <strong>Xtream Codes</strong> : un identifiant, un mot de passe et une adresse de serveur, combinés pour générer un catalogue de chaînes avec guide des programmes. Ce format n'est pas un simple flux vidéo mais une véritable API, et aucun navigateur ne sait l'interpréter nativement sans une page dédiée construite spécifiquement pour dialoguer avec cette API. C'est justement cette couche logicielle que les applications comme IPTV Smarters Pro ou TiviMate fournissent, et qu'un navigateur seul n'a pas. Pour mieux comprendre la différence entre ces deux formats, notre article sur le <a class="inline-link" href="/blog/m3u-iptv/">format M3U et son fonctionnement</a> détaille la question plus en profondeur.</p>
+
+  <h2>Pourquoi un flux IPTV ne se lance pas toujours directement dans un navigateur</h2>
+  <p>Plusieurs raisons techniques expliquent pourquoi coller une URL de flux directement dans la barre d'adresse d'un navigateur échoue souvent :</p>
+  <ul>
+    <li><strong>Absence de support HLS natif</strong> dans la plupart des navigateurs autres que Safari, ce qui nécessite une page construite avec une bibliothèque comme hls.js plutôt qu'un simple lien.</li>
+    <li><strong>Restrictions CORS (Cross-Origin Resource Sharing)</strong> : le serveur qui héberge le flux doit explicitement autoriser une page web tierce à charger ses segments vidéo. De nombreux serveurs IPTV, pensés pour être consommés par une application plutôt que par un navigateur, ne renvoient pas ces en-têtes d'autorisation, ce qui bloque la lecture même avec un lecteur web correctement configuré.</li>
+    <li><strong>Contenu mixte (mixed content)</strong> : un site HTTPS ne peut généralement pas charger un flux diffusé en HTTP simple, pour des raisons de sécurité imposées par le navigateur lui-même. Or de nombreux serveurs IPTV diffusent encore en HTTP.</li>
+    <li><strong>Blocage de la lecture automatique</strong> : les navigateurs modernes bloquent par défaut la lecture automatique du son, ce qui peut donner l'impression qu'un flux « ne fonctionne pas » alors qu'il est en réalité en pause silencieuse en arrière-plan.</li>
+  </ul>
+  <p>Ces obstacles ne sont pas des caprices arbitraires : ce sont des protections de sécurité et des limites techniques posées par les navigateurs eux-mêmes, qui échappent entièrement au contrôle de votre fournisseur <strong>abonnement IPTV Suisse</strong> comme au vôtre.</p>
+
+  <h2>Les méthodes qui fonctionnent réellement</h2>
+  <h3>Safari sur Mac et iOS : le cas le plus simple</h3>
+  <p>Safari est le seul navigateur grand public à savoir lire un flux HLS (<code>.m3u8</code>) nativement, sans bibliothèque additionnelle, à condition que le serveur n'applique pas de restriction CORS. Dans ce cas précis, ouvrir directement l'URL du flux dans un nouvel onglet Safari peut suffire. Cela reste toutefois limité à un seul flux à la fois, sans liste de chaînes, sans guide des programmes et sans mémorisation entre deux sessions.</p>
+  <h3>Un lecteur web basé sur hls.js</h3>
+  <p>Pour les navigateurs comme Chrome, Firefox ou Edge, la solution technique consiste à construire une page HTML minimale intégrant la bibliothèque hls.js, qui transforme le flux HLS en quelque chose que la balise vidéo du navigateur sait afficher. C'est exactement ce que font, en coulisses, les rares lecteurs web IPTV légitimes et open source disponibles sur des dépôts comme GitHub. Cette approche demande un minimum de confort technique, mais reste gratuite, transparente sur son fonctionnement, et ne transmet vos identifiants à aucun tiers puisque tout s'exécute localement dans votre propre navigateur.</p>
+  <h3>Les sites « IPTV player en ligne » tiers : la méthode la plus risquée</h3>
+  <p>C'est la solution la plus recherchée, et de loin la plus problématique. De nombreux sites se présentent comme des « lecteurs IPTV en ligne » où il suffirait de coller son URL M3U ou ses identifiants Xtream Codes pour regarder sa télévision directement dans le navigateur, sans rien installer. Le paragraphe suivant détaille pourquoi cette méthode mérite une prudence particulière.</p>
+
+  <div class="callout">
+    <strong>À retenir :</strong> un navigateur seul ne « regarde » jamais un abonnement IPTV comme une application dédiée. Soit le navigateur a un support natif limité (Safari), soit il faut une page technique construite spécifiquement (hls.js), soit on passe par un site tiers — et c'est précisément ce dernier cas qui pose un problème de confiance, détaillé plus bas.
+  </div>
+
+  <h2>Le vrai danger : les sites IPTV web player tiers qui demandent vos identifiants</h2>
+  <p>Un « IPTV web player en ligne » qui vous demande de saisir votre URL de playlist, votre nom d'utilisateur et votre mot de passe Xtream Codes fonctionne exactement comme n'importe quel formulaire de connexion sur internet : ces informations transitent par le serveur de ce site tiers avant d'atteindre, ou non, le serveur réel de votre fournisseur. Rien ne garantit que l'exploitant de ce site web se contente de relayer le flux sans conserver vos identifiants au passage. Dans le pire des cas, ces identifiants peuvent être revendus, réutilisés pour créer des connexions simultanées non autorisées qui finissent par faire bannir votre compte, ou simplement collectés à des fins commerciales sans votre consentement explicite.</p>
+  <p>Ce risque n'est pas théorique : c'est le même mécanisme que celui décrit dans notre article sur les <a class="inline-link" href="/blog/arnaque-abonnement-iptv/">arnaques liées à un abonnement IPTV</a>, où de faux sites de comparaison ou de prétendus outils gratuits servent en réalité à collecter des identifiants ou des paiements. La règle de prudence est simple et vaut pour n'importe quel service en ligne : ne jamais saisir les identifiants d'un abonnement payant sur un site qui n'est pas celui de votre fournisseur ou une application officielle téléchargée depuis une source fiable (Play Store, App Store, ou site officiel de l'éditeur comme VideoLAN pour VLC). Si un « lecteur web » tiers vous demande vos identifiants pour fonctionner, la prudence la plus élémentaire est de s'abstenir, quelle que soit la simplicité promise.</p>
+
+  <h2>Mettre en place un lecteur web minimal soi-même (pour les plus techniques)</h2>
+  <p>Pour les lecteurs à l'aise avec un minimum de technique, la seule méthode qui garde le contrôle total de ses identifiants consiste à construire sa propre page locale :</p>
+  <ol>
+    <li><strong>Créez un fichier HTML</strong> sur votre ordinateur, avec un éditeur de texte simple.</li>
+    <li><strong>Intégrez la bibliothèque hls.js</strong> via son lien de distribution officiel, en suivant la documentation disponible sur son dépôt GitHub.</li>
+    <li><strong>Ajoutez une balise vidéo</strong> et quelques lignes de script qui chargent l'URL de votre flux HLS dans cette balise au chargement de la page.</li>
+    <li><strong>Ouvrez ce fichier localement</strong> dans votre navigateur : vos identifiants ne quittent jamais votre machine, puisqu'aucun serveur tiers n'intervient dans le processus.</li>
+  </ol>
+  <p>Cette méthode reste un lecteur de secours ponctuel plutôt qu'une solution de confort au quotidien : pas de guide des programmes, pas de liste de chaînes organisée, et une maintenance manuelle à chaque mise à jour de votre navigateur ou de la bibliothèque hls.js. Elle n'a de sens que pour un usage occasionnel, un dépannage technique, ou par curiosité de comprendre le fonctionnement réel d'un flux IPTV.</p>
+
+  <h2>Limites d'un lecteur web face à une application dédiée</h2>
+  <p>Même dans le meilleur des cas — un lecteur hls.js fonctionnel, sans restriction CORS, sur un flux HTTPS compatible — un lecteur web reste nettement en retrait par rapport à une application IPTV dédiée installée sur un appareil :</p>
+  <ul>
+    <li><strong>Pas de guide des programmes (EPG)</strong> pour naviguer par horaires et voir ce qui passe maintenant ou ensuite.</li>
+    <li><strong>Pas de catégories de chaînes</strong> organisées par genre (sport, cinéma, jeunesse, information).</li>
+    <li><strong>Pas de support natif des identifiants Xtream Codes</strong>, qui nécessite une intégration technique spécifique absente d'un simple lecteur vidéo.</li>
+    <li><strong>Une session non persistante</strong> : fermez l'onglet, et il faut généralement tout recommencer, contrairement à une application qui garde vos identifiants en mémoire de façon sécurisée.</li>
+    <li><strong>Une expérience non pensée pour la télécommande</strong>, peu adaptée à un visionnage confortable sur grand écran de salon.</li>
+  </ul>
+  <p>Pour un usage quotidien confortable de votre <strong>abonnement IPTV Suisse</strong>, une application comme IPTV Smarters Pro, TiviMate ou GSE Smart IPTV reste donc largement préférable. Notre comparatif des <a class="inline-link" href="/blog/iptv-smarters-player/">applications IPTV disponibles</a> et notre guide sur <a class="inline-link" href="/blog/windows-iptv-player/">le choix d'un lecteur sous Windows</a> détaillent ces alternatives plus confortables au quotidien.</p>
+
+  <h2>Compatibilité par navigateur</h2>
+  <p>La compatibilité d'un flux IPTV varie sensiblement d'un navigateur à l'autre :</p>
+  <h3>Safari (macOS et iOS)</h3>
+  <p>Support HLS natif le plus complet parmi les navigateurs grand public, à condition que le serveur n'impose pas de restriction CORS. C'est le navigateur le plus permissif pour un test rapide d'un flux <code>.m3u8</code>.</p>
+  <h3>Chrome et Edge (basés sur Chromium)</h3>
+  <p>Aucun support HLS natif : un lecteur basé sur hls.js est indispensable pour afficher un flux segmenté. Ces navigateurs appliquent par ailleurs des politiques de blocage de contenu mixte et de lecture automatique particulièrement strictes.</p>
+  <h3>Firefox</h3>
+  <p>Même constat que Chrome et Edge : pas de support HLS natif, une bibliothèque JavaScript est nécessaire. Firefox applique en plus des règles de confidentialité qui peuvent bloquer certains scripts tiers selon le niveau de protection choisi dans les paramètres.</p>
+  <h3>Navigateurs sur Smart TV</h3>
+  <p>Les navigateurs intégrés aux téléviseurs (souvent basés sur d'anciennes versions de moteurs web) sont généralement les moins fiables pour ce type d'usage, avec un support HLS partiel ou absent. Pour une Smart TV, une application dédiée reste de loin la meilleure option — voir notre guide sur <a class="inline-link" href="/blog/iptv-smart-tv-samsung-lg-suisse/">l'installation IPTV sur Smart TV Samsung ou LG</a>.</p>
+
+  <h2>Dans quels cas un IPTV Web Player a-t-il vraiment du sens ?</h2>
+  <p>Malgré ses limites, un lecteur dans le navigateur garde des cas d'usage légitimes et ponctuels :</p>
+  <ul>
+    <li><strong>Tester rapidement qu'un flux fonctionne</strong> avant d'investir du temps dans la configuration d'une application dédiée.</li>
+    <li><strong>Un ordinateur professionnel où l'installation de logiciels est restreinte</strong> par une politique informatique, sans accès administrateur.</li>
+    <li><strong>Un Chromebook ou un ordinateur partagé</strong>, où l'on ne souhaite pas installer d'application IPTV à long terme.</li>
+    <li><strong>Un visionnage ponctuel en déplacement</strong>, y compris pour un abonné d'<strong>iptv romandie</strong> qui souhaite vérifier rapidement une chaîne depuis un poste qui n'est pas le sien.</li>
+  </ul>
+  <p>Dans tous ces cas, il s'agit d'un usage de dépannage ou d'exception, pas d'un remplacement durable d'une application installée sur un appareil dédié au salon.</p>
+
+  <h2>Problèmes fréquents et solutions</h2>
+  <h3>Le flux reste bloqué sur un écran noir ou une roue de chargement</h3>
+  <p>C'est le symptôme classique d'un blocage CORS : le navigateur charge la page mais le serveur refuse de transmettre les segments vidéo à un domaine tiers. Il n'existe pas de solution côté utilisateur dans ce cas précis, puisque l'autorisation doit venir du serveur du fournisseur lui-même.</p>
+  <h3>Une erreur de contenu mixte apparaît dans la console</h3>
+  <p>Cela signifie que le site (HTTPS) tente de charger un flux diffusé en HTTP simple. La plupart des navigateurs bloquent ce comportement par défaut pour des raisons de sécurité ; il n'y a généralement pas de contournement fiable sans que le fournisseur diffuse lui-même en HTTPS.</p>
+  <h3>Le son fonctionne mais pas l'image, ou l'inverse</h3>
+  <p>Vérifiez que le navigateur est à jour. Un décalage entre les codecs audio et vidéo du flux et ceux supportés nativement par le navigateur peut provoquer ce type de comportement, sans solution simple côté utilisateur autre que de changer de méthode de lecture.</p>
+  <h3>Rien ne se lance au chargement de la page</h3>
+  <p>Vérifiez les politiques de lecture automatique de votre navigateur : de nombreux navigateurs exigent une interaction manuelle (un clic sur le bouton de lecture) avant d'autoriser la diffusion du son, même lorsque la vidéo elle-même a bien chargé.</p>
+  <p>Pour les soucis de qualité ou de coupures une fois la lecture lancée, notre article dédié aux <a class="inline-link" href="/blog/iptv-sans-coupure/">coupures et au buffering en IPTV</a> détaille les causes les plus courantes, qui s'appliquent aussi bien à un lecteur web qu'à une application installée.</p>
+
+  <h2>Légalité d'un lecteur web IPTV</h2>
+  <p>Un lecteur dans le navigateur, qu'il s'agisse de Safari en natif ou d'une page construite avec hls.js, est un simple outil technique de lecture vidéo, au même titre qu'une application installée : il affiche un flux qu'on lui transmet, sans se soucier de son origine. Ce qui détermine la légalité d'un visionnage IPTV n'est donc jamais la méthode de lecture choisie, mais l'origine du contenu diffusé et les droits détenus par le fournisseur de l'<strong>abonnement IPTV Suisse</strong> souscrit. Un fournisseur transparent sur son fonctionnement reste le meilleur repère pour s'assurer de la fiabilité de son service. Notre article <a class="inline-link" href="/blog/iptv-suisse-legal/">IPTV légal en Suisse</a> détaille le cadre applicable plus en détail.</p>
+
+  <h2>IPTV Web Player ou application dédiée : notre recommandation</h2>
+  <p>Pour un dépannage ponctuel, un test rapide, ou un ordinateur où l'installation n'est pas possible, un lecteur web — Safari en natif ou une page hls.js construite soi-même — reste une option technique valable, à condition de ne jamais y saisir ses identifiants sur un site tiers inconnu. Pour un usage quotidien confortable en salon, avec guide des programmes, catégories de chaînes et navigation à la télécommande, une application dédiée reste de loin le choix le plus pratique pour profiter pleinement du <strong>meilleur iptv suisse</strong> que votre formule propose. Notre <a class="inline-link" href="/blog/guide-iptv-suisse/">guide complet IPTV Suisse</a> et notre page <a class="inline-link" href="/#tarifs">Tarifs</a> détaillent les formules et les appareils compatibles pour un visionnage confortable au quotidien.</p>
+
+  <h2>Foire aux questions</h2>
+  <h3>Puis-je regarder mon abonnement IPTV Suisse directement dans Chrome ?</h3>
+  <p>Pas de façon native : Chrome ne lit pas un flux HLS sans bibliothèque additionnelle comme hls.js, et la plupart des serveurs IPTV ne sont pas configurés pour autoriser ce type d'accès sans restriction CORS.</p>
+  <h3>Les sites qui proposent un « lecteur IPTV en ligne gratuit » sont-ils sûrs ?</h3>
+  <p>La prudence est de mise. Ne jamais saisir ses identifiants d'abonnement payant sur un site tiers qui n'est ni celui du fournisseur, ni une application officielle téléchargée depuis une source fiable.</p>
+  <h3>Pourquoi Safari fonctionne-t-il mieux que les autres navigateurs ?</h3>
+  <p>Safari intègre un support natif du format HLS, le protocole le plus utilisé pour la diffusion de flux IPTV modernes, alors que Chrome, Firefox et Edge nécessitent une bibliothèque JavaScript additionnelle pour obtenir le même résultat.</p>
+  <h3>Un lecteur web peut-il remplacer une application IPTV au quotidien ?</h3>
+  <p>Non, pas dans de bonnes conditions : pas de guide des programmes, pas de catégories de chaînes, pas de mémorisation de session entre deux visites, et une expérience peu adaptée à un visionnage confortable sur grand écran.</p>
+  <h3>Un lecteur web consomme-t-il plus de données qu'une application ?</h3>
+  <p>Pas fondamentalement, la consommation dépend surtout de la qualité du flux diffusé. En revanche, un navigateur ouvre généralement d'autres onglets et scripts en parallèle, ce qui peut solliciter davantage la connexion et le processeur que le mode plein écran dédié d'une application.</p>
+
+  <div class="cta-box">
+    <h3>Besoin d'un abonnement IPTV Suisse fiable, sur une vraie application ?</h3>
+    <p>Contactez-nous sur WhatsApp pour découvrir nos formules et consultez notre page <a class="inline-link" href="/#tarifs">Tarifs</a> pour comparer les prix selon le nombre d'appareils et la durée d'engagement.</p>
+    <a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:16px">Contacter sur WhatsApp</a>
+  </div>
+
+  <p>Un IPTV web player a sa place pour un dépannage ponctuel ou un test rapide, à condition de passer par une méthode qui garde le contrôle de ses identifiants, jamais par un site tiers inconnu demandant de les saisir. Pour un usage quotidien confortable de votre abonnement IPTV Suisse, une application dédiée reste la solution la plus fiable. Consultez notre <a class="inline-link" href="/blog/">blog</a> pour d'autres guides sur les applications et appareils compatibles avec l'IPTV en Suisse.</p>
+
+  <div class="callout" style="margin-top:40px">
+    <strong>À propos de cet article :</strong> rédigé et vérifié par l'équipe éditoriale IPTV Suisse, qui gère au quotidien l'activation et le support des abonnements. Dernière mise à jour : 30 octobre 2026. Une question sur cet article ? <a class="inline-link" href="/contact/">Contactez-nous</a>.
+  </div>
+</article>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="foot-logo"><span class="flag"></span> IPTV Suisse</div>
+        <p style="font-size:14px;max-width:280px">Abonnement IPTV premium pour la Suisse romande — sport, cinéma, séries et chaînes internationales.</p>
+      </div>
+      <div>
+        <p class="foot-heading">Liens utiles</p>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/#tarifs">Nos offres</a></li>
+          <li><a href="/forfaits-multi-ecrans/">Multi-écrans</a></li>
+          <li><a href="/iptv-suisse-romande/">IPTV Suisse Romande</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/installation/">Installation</a></li>
+          <li><a href="/#catalogue">Chaînes</a></li>
+          <li><a href="/#comparatif">Comparatif</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-heading">Support</p>
+        <ul>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/a-propos/">À propos</a></li>
+          <li><a href="https://wa.me/32497063717" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-heading">Abonnements</p>
+        <ul>
+          <li><a href="/abonnement-iptv-12-mois/">IPTV 12 mois</a></li>
+          <li><a href="/abonnement-iptv-6-mois/">IPTV 6 mois</a></li>
+          <li><a href="/abonnement-iptv-3-mois/">IPTV 3 mois</a></li>
+          <li><a href="/forfaits-multi-ecrans/">Forfaits multi-écrans</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-heading">Mentions légales</p>
+        <ul>
+          <li><a href="/confidentialite/">Confidentialité</a></li>
+          <li><a href="/conditions/">Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 IPTV Suisse. Tous droits réservés.</span>
+      <span>Suisse romande — FR</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/32497063717" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.36 5.08L2 22l5.19-1.44a9.87 9.87 0 004.85 1.27h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.85 9.85 0 0012.04 2m0 1.8c2.19 0 4.25.85 5.8 2.41a8.14 8.14 0 012.4 5.8c0 4.52-3.68 8.2-8.21 8.2a8.2 8.2 0 01-4.17-1.14l-.3-.18-3.08.86.82-3-.2-.31a8.16 8.16 0 01-1.26-4.37c0-4.53 3.69-8.27 8.2-8.27M8.53 6.9c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.13.17 1.75 2.79 4.32 3.8 2.14.84 2.57.67 3.04.63.46-.04 1.5-.61 1.71-1.2.21-.59.21-1.09.15-1.2-.07-.11-.24-.17-.5-.3-.26-.13-1.5-.75-1.74-.83-.23-.09-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.09-.4-2.07-1.28-.77-.68-1.28-1.53-1.44-1.79-.15-.26-.02-.4.11-.53.12-.12.26-.3.4-.46.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.06-.13-.57-1.42-.8-1.94-.2-.5-.42-.44-.57-.44h-.15" /></svg>
+</a>
+
+<script src="https://admin-hub.eddinesalah2007.workers.dev/track.js" data-site="iptvsuise"></script>
+</body>
+</html>
