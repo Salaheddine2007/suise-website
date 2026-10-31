@@ -723,10 +723,12 @@
       "keyword": "iptv italia",
       "volume": 170,
       "kd": 26,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "channels_content"
+      "trunk": "channels_content",
+      "slug": "iptv-italia",
+      "published_date": "2026-10-31"
     },
     {
       "keyword": "iptv apple tv",
