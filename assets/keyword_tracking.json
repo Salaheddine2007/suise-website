@@ -284,10 +284,12 @@
       "keyword": "iptv schweiz",
       "volume": 880,
       "kd": 11,
-      "status": "pending",
-      "posted_date": null,
-      "post_id": null,
-      "trunk": "general_iptv"
+      "status": "published",
+      "posted_date": "2026-11-01",
+      "post_id": "iptv-schweiz",
+      "trunk": "general_iptv",
+      "slug": "iptv-schweiz",
+      "published_date": "2026-11-01"
     },
     {
       "keyword": "set iptv",
