@@ -295,10 +295,12 @@
       "keyword": "set iptv",
       "volume": 880,
       "kd": 15,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "set-iptv",
+      "published_date": "2026-11-03"
     },
     {
       "keyword": "iptv box",
