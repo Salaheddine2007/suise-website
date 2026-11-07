@@ -317,10 +317,12 @@
       "keyword": "net iptv",
       "volume": 720,
       "kd": 23,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-07",
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "net-iptv",
+      "published_date": "2026-11-07"
     },
     {
       "keyword": "iptv smart player",
