@@ -744,10 +744,12 @@
       "keyword": "iptv apple tv",
       "volume": 170,
       "kd": 27,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "devices_boxes"
+      "trunk": "devices_boxes",
+      "slug": "iptv-apple-tv",
+      "published_date": "2026-11-10"
     },
     {
       "keyword": "iptv italiane",
