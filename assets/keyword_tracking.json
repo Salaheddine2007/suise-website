@@ -361,10 +361,11 @@
       "keyword": "iptv anbieter",
       "volume": 480,
       "kd": 21,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-12",
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "iptv-anbieter"
     },
     {
       "keyword": "iptv app",
