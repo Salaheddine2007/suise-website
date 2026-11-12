@@ -756,10 +756,12 @@
       "keyword": "iptv italiane",
       "volume": 170,
       "kd": 27,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "channels_content"
+      "trunk": "channels_content",
+      "slug": "iptv-italiane",
+      "published_date": "2026-11-12"
     },
     {
       "keyword": "smart iptv player",
