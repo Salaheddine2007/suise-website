@@ -436,10 +436,12 @@
       "keyword": "iptv smart",
       "volume": 320,
       "kd": 32,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "iptv-smart",
+      "published_date": "2026-11-13"
     },
     {
       "keyword": "m3u iptv",
