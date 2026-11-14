@@ -458,10 +458,12 @@
       "keyword": "iptv kostenlos",
       "volume": 320,
       "kd": 36,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "iptv-kostenlos",
+      "published_date": "2026-11-14"
     },
     {
       "keyword": "box iptv",
