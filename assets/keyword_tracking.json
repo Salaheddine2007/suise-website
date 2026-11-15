@@ -774,10 +774,12 @@
       "keyword": "smart iptv player",
       "volume": 170,
       "kd": 27,
-      "status": "pending",
+      "status": "published",
       "posted_date": null,
       "post_id": null,
-      "trunk": "apps_players"
+      "trunk": "apps_players",
+      "slug": "smart-iptv-player",
+      "published_date": "2026-11-15"
     },
     {
       "keyword": "smarters iptv pro",
