@@ -827,10 +827,12 @@
       "keyword": "4k iptv",
       "volume": 140,
       "kd": 9,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-20",
       "post_id": null,
-      "trunk": "channels_content"
+      "trunk": "channels_content",
+      "slug": "4k-iptv",
+      "published_date": "2026-11-20"
     },
     {
       "keyword": "gs iptv",
