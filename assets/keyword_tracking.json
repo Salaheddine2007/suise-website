@@ -909,10 +909,12 @@
       "keyword": "iptv illegal",
       "volume": 140,
       "kd": 24,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-22",
       "post_id": null,
-      "trunk": "legality"
+      "trunk": "legality",
+      "slug": "iptv-illegal",
+      "published_date": "2026-11-22"
     },
     {
       "keyword": "iptv subscription",
