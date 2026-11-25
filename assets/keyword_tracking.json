@@ -922,10 +922,12 @@
       "keyword": "iptv subscription",
       "volume": 140,
       "kd": 27,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-25",
       "post_id": null,
-      "trunk": "buying_providers"
+      "trunk": "buying_providers",
+      "slug": "iptv-subscription",
+      "published_date": "2026-11-25"
     },
     {
       "keyword": "iptv stream",
