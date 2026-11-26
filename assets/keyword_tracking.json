@@ -656,10 +656,12 @@
       "keyword": "rapid iptv",
       "volume": 170,
       "kd": 6,
-      "status": "pending",
-      "posted_date": null,
+      "status": "published",
+      "posted_date": "2026-11-26",
       "post_id": null,
-      "trunk": "general_iptv"
+      "trunk": "general_iptv",
+      "slug": "rapid-iptv",
+      "published_date": "2026-11-26"
     },
     {
       "keyword": "iptv the best",
